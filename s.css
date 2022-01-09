@@ -1,0 +1,102 @@
+
+*{margin:0;padding:0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+
+-webkit-background-size:border-box;
+-moz-background-size:border-box;
+background-size:border-box;
+    
+}
+body{font-family:arial-tahoma;perspective:1500px}
+.clear{clear:both}
+ul{list-style:none}
+.container{width:1000px;margin:auto}
+
+
+.main{height:600px;text-align:center;background-image:url(a.jpg);background-size:cover}
+.main > div{padding:290px 0px 0px 0px}
+.main h1{text-transform:uppercase;font:normal bold 40px/50px "rtebuchet ms";padding:8px 0px }
+.main h1 .all{margin:auto;width:270px;transition:all 0.4s ease-in-out}
+.main h1 .all:hover{cursor:pointer;transform:scale(1.2)}
+.main h1 hr{width:260px;margin:auto}
+.main hr{width:260px;margin:auto}
+.main h1 .web{color:#fff}
+.main h1 .web:hover{color:cyan}
+.main h1 .design{color:cyan}
+.main h1 .design:hover{color:#fff}
+.main input{width:150px;padding:5px 0px;margin:100px auto;background:none;color:#fff;font-size:15px;font:normal bold 16px/20px "trebuchet ms";transition:all 0.3s ease-in-out}
+.main input:hover{color:#111;cursor:pointer;background:#fff;font:normal bold 16px/20px "trebuchet ms";transform:scale(0.9)}
+
+
+nav{background:#252530 }
+nav ul{text-align:center;padding:30px}
+nav ul li {display:inline-block;padding:0px 30px;color:#fff;font:normal bold 16px/15px "trebuchet ms";transition:all 0.2s ease-in-out}
+nav ul li:hover{color:cyan;text-decoration:underline;cursor:pointer;transform:scale(1.2)}
+
+
+.art1 header h2{margin:40px auto 60px;text-align:center;color:#122;font:normal bold 40px/40px "trebuchet ms";text-shadow:2px 1px 2px #555}
+.art1 .sec1{padding:5px 0px 5px 50px}
+.art1 .sec1 p{color:#eee;background:#058;margin:50px 35px 20px;width:18%;height:180px;text-align:center;font:normal bold 35px/60px arial;padding-top:55px;border-radius:30% 5%;float:left;box-shadow:5px 5px 3px #aa9;text-transform:capitalize;transition:all 0.4s ease-in-out;text-shadow:2px 2px 3px #222 }
+.art1 .sec1 p:hover{background:#ffe;border:1px solid #07b;cursor:pointer;color:#07b;transform:scale(0.8)}
+
+
+.art2{text-align:center;background:#067;margin:100px auto}
+.art2 header h3{padding:50px 0px 50px;font:normal normal 35px/35px "trebuchet ms";color:#fff;text-shadow:3px 3px 3px #222}
+.art2 p{padding:0px 0px 70px;font: italic lighter 20px/25px "rtebuchet ms" ;color:#fff;text-shadow:2px 2px 3px #222}
+
+
+
+.art3{padding-top:30px}
+.art3 header h2{text-align:center;font:normal bold 40px/40px "trebuchet ms";margin:0px 0px 80px;color:#122;text-shadow:2px 1px 2px #555}
+.art3 section{ background:#eee;height:550px;padding:0px 0px 40px 30px}
+.art3 section .father{position:relative;width:26.6%;height:460px;display:inline-block;margin:20px 0px 0px 60px;background:#fff;padding:5px;border:2px solid #aaa;border-radius:10px;box-shadow:5px 5px 5px #aaa;transition:all 1s ease-in-out;transform-style:preserve-3d}
+.art3 section .father:hover{cursor:pointer;transform:rotateY(180deg)}
+.art3 section .father .front{position:absolute;width:350px;height:460px;z-index:5;backface-visibility:hidden}
+.art3 section .father .back {position:absolute;width:337px;height:445px;z-index:2;background:#ddd;color:#f00;backface-visibility:hidden;transform:rotateY(180deg);border-radius:10px;}
+.art3 section .father .back .exper{height:40%;text-align:center;color:#066}
+.art3 section .father .back .exper h3{font:normal bold 30px/40px "trebuchet ms";margin:25px}
+.art3 section .father .back .exper p{font:italic normal 20px/30px "time new roman"}
+.art3 section .father .back .contacts{height:40%;text-align:center;color:#066;margin-top:30px}
+.art3 section .father .back .contacts h3{font:normal bold 30px/40px "trebuchet ms";margin:25px}
+.art3 section .father .back .contacts p{font:italic normal 20px/35px "time new roman"}
+.art3 section .mem1{width:96%;height:300px;background:url("dd.png");background-size:cover;border-radius:10px}
+.art3 section .mem1:hover{} 
+.art3 section .mem2{width:96%;height:300px;background:url("d.jpg");background-size:cover;border-radius:10px}
+.art3 section .mem3{width:96%;height:300px;background:url("ddd.jpg");background-size:cover;border-radius:10px}
+.art3 section div figcaption{margin:10px auto;text-align:center;padding:15px 10px 20px}
+.art3 section div figcaption h5{font:normal bold 22px/20px "trebuchet ms";padding:5px 0px 20px;color:#067;text-transform:capitalize;text-shadow:1px 1px 5px #bbb}
+.art3 section div figcaption p{font:italic 300 16px/20px "time new roman";color:#066;text-shadow:1px 1px 2px #bbb} 
+
+
+
+.art4{height:600px;background:#067;position:relative;color:#fff}
+.art4 header{text-align:center;padding:20px 0px}
+.art4 header h3{padding:30px;font:normal normal 35px/40px "trebuchet ms";text-shadow:3px 3px 3px #222}
+.art4 header p{font:italic normal 20px/30px "time new roman";text-shadow:2px 2px 3px #222}
+.art4 section{padding:50px}
+.art4 section div{width:45%;height:330px;float:left;background:#057;text-align:center; padding-top:10px;border-radius:10px}
+.art4 section div .sign{margin:10px 100px 0px 0px;font:normal bold 16px/20px "trebuchet ms";color:#fff}
+.art4 section div .check{margin:0px 50px 50px 0px ;padding:5px;font:normal lighter 13px/10px arial}
+.art4 section div input[type="email"]{margin:0px 20px 10px 20px;width:300px;padding:10px 20px}
+.art4 section div input[type="password"]{margin:10px 10px 20px 25px;width:300px;padding:10px 20px}
+.art4 section div textarea{margin:0px 40px 0px 0px;height:100px;width:400px;padding:10px 20px}
+.art4 section div input[type="submit"]{padding:3px 15px;float:right;margin:70px 30px 0px 0px}
+.art4 section div input[type="submit"]:hover{cursor:pointer}
+.art4 section aside{text-align:center;width:45%;height:330px;float:right;background:#057;padding-top:10px;border-radius:10px}
+.art4 section aside label{color:#fff}
+.art4 section aside input[type="text"]{margin:0px 20px 15px 0px;width:300px;padding:10px 20px}
+.art4 section aside input[type="email"]{margin:0px 20px 15px 0px;width:300px;padding:10px 20px}
+.art4 section aside input[name="password1"]{margin:0px 15px 20px 0px;width:300px;padding:10px 20px}
+.art4 section aside input[name="password2"]{margin:0px 15px 20px 100px;width:300px;padding:10px 20px}
+.art4 section aside input[type="submit"]{padding:3px 15px;float:right;margin:10px 30px 0px 0px}
+.art4 section aside input[type="submit"]:hover{cursor:pointer}
+.art4 section aside label{margin-right:30px;font:normal bold 16px/20px "trebuchet ms"}
+
+
+a[href="#top"]{color:#252530;padding:10px;float:right;text-decoration:none;background-color:cyan;border-radius:30% 2px 20px 2px;position:absolute;top:101.5%;left:93%}
+a[href="#top"]:hover{background:#fff;color:#111;border:1px solid #252530}
+
+
+footer{background:#252530;padding:20px;text-align:center;color:#fff}
